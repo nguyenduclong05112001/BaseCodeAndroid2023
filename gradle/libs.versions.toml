@@ -1,7 +1,5 @@
 [versions]
 
-namespace = "com.longhrk.app"
-applicationId = "com.example.app"
 compileSdk = "34"
 minSdk = "26"
 targetSdk = "34"

@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = libs.versions.namespace.get()
+    namespace = "com.longhrk.app"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = libs.versions.applicationId.get()
+        applicationId = "com.example.app"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = libs.versions.versionCode.get().toInt()

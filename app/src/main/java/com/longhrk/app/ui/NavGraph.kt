@@ -38,7 +38,7 @@ fun NavGraph(eventHandler: EventHandler, navController: NavHostController) {
 
         composable(NavTarget.Other.route) {
             OtherScreen(
-                onClick = { }
+                onClick = {  }
             )
         }
     }
